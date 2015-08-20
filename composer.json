@@ -1,0 +1,28 @@
+{
+    "name": "PI framework",
+    "description": "PI framework",
+    "keywords": [
+        "PI framework"
+    ],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Stanislav Dakov",
+            "email": "st.dakov@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "App\\": "app/"
+        }
+    },
+    "require": {
+        "aura/sql": "^2.4",
+        "filp/whoops": "^1.1"
+    }
+}
